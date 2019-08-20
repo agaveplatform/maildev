@@ -11,4 +11,4 @@ RUN /docker-entrypoint.sh
 # web amd smtp port
 EXPOSE 1025 80
 
-ENTRYPOINT "/bin/entrypoint.sh"
+ENTRYPOINT "/bin/entrypoint.sh"git remote add origin git@github.com:agaveplatform/maildev.git

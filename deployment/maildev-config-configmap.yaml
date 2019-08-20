@@ -9,9 +9,5 @@ data:
   DISABLE_WEB: ""
   # url prefix of the webapp
   BASE_PATHNAME: ""
-  # web ui username
-  WEB_USER: maildev
-  # web ui password
-  WEB_PASS: password
   # should match the path where the rules configmap was mounted
   AUTO_RELAY_RULES: /data/rules.json

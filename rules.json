@@ -1,0 +1,5 @@
+[
+  { "allow": "*" },
+  { "deny": "*@example.com" },
+  { "deny": "*@test.com" }
+]

@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: maildev-rules
+  labels:
+    app: maildev
+data:
+  rules.json: |-
+    [
+      { "allow": "*" },
+      { "deny": "*@example.com" },
+      { "deny": "*@test.com" }
+    ]
+
